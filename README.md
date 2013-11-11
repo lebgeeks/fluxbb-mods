@@ -1,6 +1,6 @@
 A collection of modifications for [fluxbb](http://fluxbb.org) that I wrote for [LebGeeks](http://lebgeeks.com/). You may used them in conjunction with [Daris' patcher](https://github.com/daris/fluxbb-patcher).
 
-- Mailchimp integration: allows users to subscribe to your newsletter on sign-u. Users are unsubscribed automatically if they are deleted.
+- Mailchimp integration: allows users to subscribe to your newsletter on sign-up. Users are unsubscribed automatically if they are deleted.
 - Registration challenge: A math challenge that visitors need to solve in order to sign up. it was written for a tech community, so the assumption is that the user has basic programming knowledge.
 - Syntax highlighting: highlight [code] blocks using prettify.js by Google. 
 - Relative time: displays timestamps as relative, for example "5 days ago" instead of a date.
@@ -23,4 +23,5 @@ The following mods were not written by myself but are included in this repo:
 # License
 
 Copyright 2013 LebGeeks
-Licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html
+
+Licensed under the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
