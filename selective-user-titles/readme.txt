@@ -7,7 +7,7 @@
 ##     Release date:  2013-10-18
 ##           Author:  Samer (fluxbb@lebgeeks.com)
 ##
-##      Description:  Remove the user title "Member" but keeps admins, mods, and any other custom title
+##      Description:  Removes default user titles but keeps guest, banned and custom titles
 ##
 ##   Affected files:  include/functions.php
 ##
@@ -32,7 +32,7 @@ include/functions.php
 #---------[ 2. FIND (line: 854) ]-----------------------------------------------
 #
 
-$user_title = $lang_common['Member'];
+$user_title = pun_htmlspecialchars($user['g_user_title']);
 
 
 #
