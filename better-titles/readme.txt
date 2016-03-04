@@ -7,7 +7,7 @@
 ##     Release date:  2013-10-18
 ##           Author:  Samer (fluxbb@lebgeeks.com)
 ##
-##      Description:  Removes forum name from topic title, removes page number for the first page
+##      Description:  Removes forum name from topic title
 ##
 ##   Affected files:  viewtopic.php, include/functions.php
 ##
@@ -40,26 +40,6 @@ $page_title = array(pun_htmlspecialchars($pun_config['o_board_title']), pun_html
 #
 
 $page_title = array(pun_htmlspecialchars($pun_config['o_board_title']), pun_htmlspecialchars($cur_topic['subject']));
-
-
-#
-#---------[ 4. OPEN ]---------------------------------------------------------
-#
-
-include/functions.php
-
-
-#
-#---------[ 5. FIND (line: 596) ]-----------------------------------------------
-#
-
-if (!is_null($p))
-
-#
-#---------[ 6. REPLACE WITH] ---------------------------------------------------
-#
-
-if (!is_null($p) && $p!=1)
 
 #
 #---------[ 7. SAVE/UPLOAD ]-------------------------------------------------
