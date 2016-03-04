@@ -46,7 +46,7 @@ $is_online = ($cur_post['is_online'] == $cur_post['poster_id']) ? '<strong>'.$la
 #---------[ 4. REPLACE WITH ]--------------------------------------------------
 #
 
-$is_online = ($cur_post['is_online'] == $cur_post['poster_id']) ? '<span><img alt="'.$lang_topic['Online'].'" src="img/online.png" /></span>' : '<span><img alt="'.$lang_topic['Offline'].'" src="img/offline.png" /></span>';
+$is_online = ($cur_post['is_online'] == $cur_post['poster_id']) ? '<span><img alt="'.$lang_topic['Online'].'" width="16" src="img/online.png" /></span>' : '<span><img alt="'.$lang_topic['Offline'].'" width="16" src="img/offline.png" /></span>';
 
 
 #
