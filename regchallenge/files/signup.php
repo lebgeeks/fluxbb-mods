@@ -41,11 +41,21 @@ require PUN_ROOT.'header.php';
 				<fieldset>
 					<legend>In order to sign-up, you need to solve this challenge.</legend>
 					<div class="infldset">
-                                                <div class="usercontent">
-                                                <p>Find the sum of the multiples of <?= $x ?> or <?= $y ?> under <?= $limit ?></p>
-                                                    <p>For example, if we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
-                                                    <p><input type="text" name="answer" placeholder="Your answer" value="" />
-                                                </div>
+              <div class="usercontent">
+              <p>Find the sum of the multiples of <?= $x ?> or <?= $y ?> under <?= $limit ?></p>
+              <p><input type="text" name="answer" placeholder="Your answer" value="" /></p>
+              <hr />
+              <p>For example, if we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+              <p>Too hard? Here's a detailed example:</p>
+              <p>Find the sum of the multiples of 3 or 5 under 16</p>
+              <p>Walk through each number from 0 to 15<br />
+              For each number, check if it is a multiple 3 or 5 or both.<br />
+              If it is, take note of that number. If it is not, ignore it.</p>
+              <p>At the end of this process, you should get: 3, 5, 6, 9, 10, 12, 15<br />
+              The sum of those numbers is: 3+5+6+9+10+12+15 = 60<br />
+              The solution is therefore 60.</p>
+              <p>Note: If you refresh the page, you will get a new exercise.</p>
+              </div>
 					</div>
 				</fieldset>
 			</div>
